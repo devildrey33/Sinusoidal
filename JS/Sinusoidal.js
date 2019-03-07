@@ -15,8 +15,8 @@ var Banner_Sinusoidal = function() {
         'Alto'              : 'Auto',
         'Entorno'           : 'Normal',
         'MostrarFPS'        : true,
-        'BotonLogo'         : false,
-        'BotonesPosicion'   : "left:10px; bottom:10px;",  // alineado al borde inferior izquierda
+        'BotonLogo'         : true,
+        'BotonesPosicion'   : "derecha",  // alineado al borde inferior izquierda
         'BotonExtraHTML'    : '<div class="ObjetoCanvas_Boton" title="Nuevos valores aleatórios" onclick="Canvas.Reiniciar()"><span style="display:table; margin-top:19px; margin-left:auto; margin-right:auto">Rand</span></div>',
         'Pausar'            : true,             // Pausa el canvas si la pestaña no tiene el foco del teclado        
         'ElementoRaiz'      : "",
