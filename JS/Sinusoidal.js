@@ -21,7 +21,7 @@ var Banner_Sinusoidal = function() {
         'Pausar'            : false,                            // Pausa el canvas si la pestaña no tiene el foco del teclado        
         'ElementoRaiz'      : "",
         'CapturaEjemplo'    : "Sinusoidal.png",                 // Captura de pantalla para el ejemplo a "NuevoCanvas2D.png" se le añadirá "https://devildrey33.es/Web/Graficos/250x200_"
-        'ForzarLandscape'   : true                              // Fuerza al dispositivo movil para que se muestre solo apaisado
+        'ForzarLandscape'   : false                              // Fuerza al dispositivo movil para que se muestre solo apaisado
     }) === false) { return false; }
 };
 
