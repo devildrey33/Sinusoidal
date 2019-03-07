@@ -200,4 +200,4 @@ Banner_Sinusoidal.prototype = Object.assign( Object.create(ObjetoCanvas.prototyp
     }
 });
 
-var Canvas = Banner_Sinusoidal;
+var Canvas = new Banner_Sinusoidal;
