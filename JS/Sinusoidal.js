@@ -19,7 +19,7 @@ var Banner_Sinusoidal = function() {
         'BotonesPosicion'   : "left:10px; bottom:10px;",  // alineado al borde inferior izquierda
         'BotonExtraHTML'    : '<div class="ObjetoCanvas_Boton" title="Nuevos valores aleatórios" onclick="Canvas.Reiniciar()"><span style="display:table; margin-top:19px; margin-left:auto; margin-right:auto">Rand</span></div>',
         'Pausar'            : true,             // Pausa el canvas si la pestaña no tiene el foco del teclado        
-        'ElementoRaiz'      : document.body,
+        'ElementoRaiz'      : "",
         'CapturaEjemplo'    : "Sinusoidal.png"                // Captura de pantalla para el ejemplo a "NuevoCanvas2D.png" se le añadirá "https://devildrey33.es/Web/Graficos/250x200_"
     }) === false) { return false; }
 };
